@@ -16,6 +16,7 @@ $ docker run -it --runtime=nvidia xilenteyex/tf_pesto:latest bash
 ```
 $ cd /root/
 $ mkdir pestoPlacement
+$ cd pestoPlacement
 ```
 
 
