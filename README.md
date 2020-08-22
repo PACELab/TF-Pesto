@@ -51,10 +51,10 @@ Populate this file with the scheduling constraints in json format:
 
 ## Build TensorFlow
 ```
-bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
-./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/
-pip uninstall -y tensorflow
-pip install /tmp/tensorflow-1.14.0-cp27-cp27mu-linux_x86_64.whl
+$ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
+$ ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/
+$ pip uninstall -y tensorflow
+$ pip install /tmp/tensorflow-1.14.0-cp27-cp27mu-linux_x86_64.whl
 ```
 
 ### Finally, Run the TensorFlow program as usual and it will follow the placements specified in above format
