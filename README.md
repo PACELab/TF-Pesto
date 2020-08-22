@@ -16,11 +16,15 @@ $ docker run -it --runtime=nvidia xilenteyex/tf_pesto:latest bash
 ```
 $ cd /root/
 $ mkdir pestoPlacement
-$ vi part.json
 ```
 
+
+```
+$ vi part.json
+```
+Populate this file with the partitions in following json format:
+
 ``` json
-Populate this file with the partitions in json format with
 [
   {"op-Name":"requested-Device"},
   {"op-Name":"requested-Device"},
@@ -32,6 +36,8 @@ Populate this file with the partitions in json format with
 ```
 $ vi cdep.json
 ```
+
+Populate this file with the Scheduling constraints in following json format:
 
 ``` json
 Populate this file with the scheduling constraints in json format:
