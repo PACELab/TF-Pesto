@@ -1,6 +1,8 @@
 # TF-Pesto
 A Distributed Version of TensorFlow r1.14 to support User-specified Operation Partitioning and Scheduling 
 
+## Docker Image:
+https://hub.docker.com/repository/docker/xilenteyex/tf_pesto
 
 ## Requirements:
 Docker with Nvidia-Runtime
