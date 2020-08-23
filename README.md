@@ -41,7 +41,6 @@ $ vi cdep.json
 Populate this file with the Scheduling constraints in following json format:
 
 ``` json
-Populate this file with the scheduling constraints in json format:
 [
   {"op-Name":["<predecessor-OpName-list>"]},
   {"op-Name":["<predecessor-OpName-list>"]},
