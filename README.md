@@ -51,6 +51,7 @@ Populate this file with the Scheduling constraints in following json format:
 
 ## Build TensorFlow
 ```
+$ cd /tensorflow_src/
 $ bazel build --config=opt --config=cuda //tensorflow/tools/pip_package:build_pip_package
 $ ./bazel-bin/tensorflow/tools/pip_package/build_pip_package /tmp/
 $ pip uninstall -y tensorflow
