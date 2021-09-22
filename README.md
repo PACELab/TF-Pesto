@@ -61,3 +61,18 @@ $ pip install /tmp/tensorflow-1.14.0-cp27-cp27mu-linux_x86_64.whl
 ```
 
 #### Finally, we can run the TensorFlow program as usual and it will follow the placements specified in above format
+
+
+## Simulator
+
+### Requirements:
+Matlab with Bioinformatics Toolbox and Cplex
+
+### How to Run:
+Simply execute main.m
+```
+Configurable parameters:
+timelmt: Time limit for the solver;
+para_config: [maximum size of the supernode dag; maximum size of all supernodes; maximum length of all supernodes];
+speed_mat : 2*2 matrix storing parameters from linear interpolation of CPU-GPU speed and GPU-GPU speed.
+```
